@@ -1,5 +1,5 @@
-namespace WeatherStation.Factory;
-
+namespace WeatherStation.Observer
+{
 
     public class WeatherData
     {
@@ -7,7 +7,7 @@ namespace WeatherStation.Factory;
         private List<IDisplay> observers;
         private Random random;
 
-        private WeatherData()
+        public WeatherData()
         {
             observers = new List<IDisplay>();
             random = new Random();
@@ -47,4 +47,11 @@ namespace WeatherStation.Factory;
                 observer.Update(temperature, humidity, pressure);
             }
         }
+
+    public static object GetInstance()
+    {
+        throw new NotImplementedException();
     }
+    
+}
+}
