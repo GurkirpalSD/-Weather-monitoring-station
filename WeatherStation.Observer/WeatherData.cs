@@ -38,9 +38,9 @@ namespace WeatherStation.Observer
         public void NotifyObservers()
         {
             // Simulate weather data changes
-            int temperature = random.Next(-20, 40);
-            int humidity = random.Next(0, 100);
-            int pressure = random.Next(900, 1100);
+            float temperature = random.Next(-20, 40);
+            float humidity = random.Next(0, 100);
+            float pressure = random.Next(900, 1100);
 
             foreach (var observer in observers)
             {

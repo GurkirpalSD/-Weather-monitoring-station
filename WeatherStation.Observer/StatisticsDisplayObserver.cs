@@ -8,7 +8,7 @@ namespace WeatherStation.Observer;
         throw new NotImplementedException();
     }
 
-    public void Update(int temperature, int humidity, int pressure)
+    public void Update(float temperature, float humidity, float pressure)
         {
             // Display weather statistics
             Console.WriteLine($"Weather statistics: Average temperature, max temperature, min temperature, etc.");

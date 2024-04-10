@@ -3,5 +3,5 @@ namespace WeatherStation.Observer;
 
     public interface IDisplay
     {
-        void Update(int temperature, int humidity, int pressure);
+        void Update(float temperature, float humidity, float pressure);
     }

@@ -12,7 +12,7 @@ namespace WeatherStation.Observer;
         throw new NotImplementedException();
     }
 
-    public void Update(int temperature, int humidity, int pressure)
+    public void Update(float temperature, float humidity, float pressure)
         {
             // Display current weather conditions
             Console.WriteLine($"Current conditions: Temperature {temperature}°C, Humidity {humidity}%, Pressure {pressure}hPa");
