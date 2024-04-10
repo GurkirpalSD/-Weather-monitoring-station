@@ -1,3 +1,5 @@
+
+
 namespace WeatherStation.Observer;
 
 

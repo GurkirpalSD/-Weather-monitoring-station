@@ -2,7 +2,9 @@
 
 
 namespace WeatherStation.Observer;
-
+ ///<summary>
+    /// This class is an observer that displays the current conditions of the weather
+    ///</summary>
 
 
     public class CurrentConditionsDisplay : IDisplay

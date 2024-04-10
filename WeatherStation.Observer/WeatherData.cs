@@ -6,6 +6,9 @@ namespace WeatherStation.Observer
         private static WeatherData instance;
         private List<IDisplay> observers;
         private Random random;
+        private float temperature;
+        private float humidity;
+        private float pressure;
 
         public WeatherData()
         {
@@ -46,6 +49,21 @@ namespace WeatherStation.Observer
             {
                 observer.Update(temperature, humidity, pressure);
             }
+        }
+
+        public float GetTemperature()
+        {
+            return temperature;
+        }
+
+        public float GetHumidity()
+        {
+            return humidity;
+        }
+
+        public float GetPressure()
+        {
+            return pressure;
         }
 
  
