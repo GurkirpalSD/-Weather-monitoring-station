@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WeatherStation.Factory", "W
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WeatherData", "WeatherData\WeatherData.csproj", "{3A86E6AD-C1A7-4E83-9BDD-C380620D079D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeatherStation.Observer", "WeatherStation.Observer\WeatherStation.Observer.csproj", "{6938EF7F-EB82-4D08-B89F-19FFD954FC68}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{3A86E6AD-C1A7-4E83-9BDD-C380620D079D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3A86E6AD-C1A7-4E83-9BDD-C380620D079D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3A86E6AD-C1A7-4E83-9BDD-C380620D079D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6938EF7F-EB82-4D08-B89F-19FFD954FC68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6938EF7F-EB82-4D08-B89F-19FFD954FC68}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6938EF7F-EB82-4D08-B89F-19FFD954FC68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6938EF7F-EB82-4D08-B89F-19FFD954FC68}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
