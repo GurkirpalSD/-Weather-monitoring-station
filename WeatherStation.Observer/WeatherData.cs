@@ -13,16 +13,16 @@ namespace WeatherStation.Observer
             random = new Random();
         }
 
-        public static WeatherData Instance
+        public static WeatherData GetInstance()
         {
-            get
-            {
+        
+            
                 if (instance == null)
                 {
                     instance = new WeatherData();
                 }
                 return instance;
-            }
+            
         }
 
         public void RegisterObserver(IDisplay observer)
@@ -48,10 +48,6 @@ namespace WeatherStation.Observer
             }
         }
 
-    public static object GetInstance()
-    {
-        throw new NotImplementedException();
-    }
-    
+ 
 }
 }
