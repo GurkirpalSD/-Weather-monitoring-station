@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <ItemGroup>
-    <ProjectReference Include="..\WeatherStation.Factory\WeatherStation.Factory.csproj" />
+  
     <ProjectReference Include="..\WeatherStation.Observer\WeatherStation.Observer.csproj" />
   </ItemGroup>
 

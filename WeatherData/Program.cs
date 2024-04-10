@@ -2,17 +2,17 @@
 using WeatherStation.Observer;
 
  
-var weatherData = new WeatherData();
+WeatherData weatherData = (WeatherData)WeatherData.GetInstance();
 
 var statisticsdisplayobserver = new StatisticsDisplayObserver();
 var forecastdisplayobserver = new ForecastDisplayObserver();
 var currentConditionsDisplay = new CurrentConditionsDisplay();
 
-weatherData.Value = 80f;
+//weatherData.Value = 80f;
 
 weatherData.RegisterObserver(forecastdisplayobserver);
 weatherData.RegisterObserver(currentConditionsDisplay);
 
-Console.WriteLine(statisticsdisplayobserver.Update());
+Console.WriteLine(statisticsdisplayobserver.Display());
 Console.WriteLine(forecastdisplayobserver.Display());
 Console.WriteLine(currentConditionsDisplay.Display());
