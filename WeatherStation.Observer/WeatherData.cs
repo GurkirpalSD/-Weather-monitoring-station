@@ -1,4 +1,8 @@
 namespace WeatherStation.Observer
+
+///<summary>
+/// This class represents weather data and manages observers to notify them of changes in weather conditions.
+///</summary>
 {
 
     public class WeatherData

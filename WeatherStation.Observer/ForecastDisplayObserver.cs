@@ -1,6 +1,10 @@
 
 namespace WeatherStation.Observer;
 
+///<summary>
+/// This class is an observer responsible for displaying the forecasted weather conditions based on current data.
+///</summary>
+
     public class ForecastDisplayObserver : IDisplay
     {
         private string forecast;
